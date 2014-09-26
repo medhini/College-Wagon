@@ -10,7 +10,7 @@ Anant Maheshwari
 Nikhil Karve
 Poorva Rane
 Medhini C
-Mounica Hegde
+Mounica Sanapala
 
 Problem Statement:
 Buying and selling of second-hand goods (books, electronic devices, etc) inside the college among students requires an efficient and an easy to use approach so that one can find what he/she wants at the right place/time.  However, there are problems preventing the ideal vision from being a reality.
