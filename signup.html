@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Sign Up</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/static/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>  
+<div class="container">    
+        <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
+            <div class="panel panel-info" >
+                    <div class="panel-heading">
+                        <div class="panel-title">Sign Up</div>
+              
+            
+
+                    <div style="padding-top:30px" class="panel-body" >
+
+                        <div style="display:none" id="signup-alert" class="alert alert-danger col-sm-12"></div>
+                            
+                       
+						<form class="form-horizontal" action='' method="POST">
+                                    
+                            <div style="margin-bottom: 25px" class="input-group">
+                                        
+
+  <fieldset>
+    <div id="legend">
+      
+    </div>
+    <div class="control-group">
+      
+      <label class="control-label"  for="username">Username</label>
+      <div class="controls">
+        <input type="text" id="username" name="username" placeholder="Enter username" class="input-xlarge">
+        
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      
+      <label class="control-label" for="email">E-mail</label>
+      <div class="controls">
+        <input type="email" id="email" name="email" placeholder="Enter your e-mail" class="input-xlarge">
+        
+      </div>
+    </div>
+
+	<div class="control-group">
+  <label class="control-label" for="intitute">Institute</label>
+  <select class="form-control" id="institute">
+    <option>National Institute of Technology Karnataka Surathkal</option>
+    
+  </select>
+	</div>
+ 
+    <div class="control-group">
+      
+      <label class="control-label" for="password">Password</label>
+      <div class="controls">
+        <input type="password" id="password" name="password" placeholder="Enter your password" class="input-xlarge">
+        
+      </div>
+    </div>
+ 
+    <div class="control-group">
+      
+      <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+      <div class="controls">
+        <input type="password" id="password_confirm" name="password_confirm" placeholder="Confirm Password" class="input-xlarge">
+        
+      </div>
+    </div>
+ <br>
+	<div class="checkbox">
+      <label><input type="checkbox">Remember me</label>
+    </div>
+	
+    <div class="control-group">
+      
+      <div class="controls">
+        <button class="btn btn-success">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</div>
+</form>
+                            </form>     
+
+
+
+                        </div>                     
+                    </div>  
+        </div> 
+         
+    </div>
+    <script src="static/js/bootstrap.min.js"></script>
+<script src="/s/jquery.js"></script>
+</body>
+</html>
